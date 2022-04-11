@@ -65,7 +65,7 @@ The 48 attributes are:
  ## How to use
  first download [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
 
-'''
+```
 
   from delivery import data_delivery
 
@@ -76,7 +76,7 @@ The 48 attributes are:
                 path_attr=path_attr,
                 need_parts=True,
                 need_attr= False)
-'''python  
+``` 
 ## Citation
 
 If you use this dataset in your research, please kindly cite our work as,

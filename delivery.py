@@ -11,11 +11,9 @@ def data_delivery(main_path,
                   path_attr=None,
                   need_id=False,
                   need_parts=False,
-                  need_attr=True,
-                  dataset = 'CA_Market'):
+                  need_attr=True):
     '''
     
-mode = ['CA_Market', 'Market_attribute', 'CA_Duke', 'Duke_attribute', 'PA100k]
     Parameters
     ----------
     main_path : TYPE string
@@ -55,4 +53,13 @@ mode = ['CA_Market', 'Market_attribute', 'CA_Duke', 'Duke_attribute', 'PA100k]
                     'foot_colour':attr_vec[:,37:41],
                     'age':attr_vec[:,41:45]})
         
+        output.update({'names' : ['gender','cap','hairless','short hair','long hair',
+                                  'knot', 'h_colorful/h_black','Tshirt/shirt', 'coat',
+                                  'top','simple/patterned','b_w','b_r',
+                                  'b_y','b_green','b_b',
+                                  'b_gray','b_p','b_black','backpack', 'bag','no bag','pants',
+                                  'short','skirt','l_w','l_r','l_br','l_y','l_green','l_b',
+                                  'l_gray','l_p','l_black','shoes','sandal',
+                                  'hidden','no color','f_w', 'f_colorful','f_black','young', 
+                                  'teenager', 'adult', 'old']})        
     return output

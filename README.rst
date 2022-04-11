@@ -72,6 +72,19 @@ attr_names = ['gender','cap','hairless','short hair','long hair',
            'l_gray','l_p','l_black','shoes','sandal',
            'hidden','no color','f_w', 'f_colorful','f_black', 'young', 
            'teenager', 'adult', 'old']
+
+.. code-block:: python          
+
+   from delivery import data_delivery
+
+  main_path = './datasets/Market1501/Market-1501-v15.09.15/gt_bbox/'
+  path_attr = './attributes/CA_Market_with_id.npy'
+
+  attr = data_delivery(main_path,
+                path_attr=path_attr,
+                need_parts=True,
+                need_attr= False)
+  
 ## Citation
 
 If you use this dataset in your research, please kindly cite our work as,

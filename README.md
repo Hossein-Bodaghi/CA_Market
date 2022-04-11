@@ -3,7 +3,7 @@
 Here is the official repository for CA_Market1501 attribute dataset. You can find more details on [CA-Market: A Partially Categorical AnnotatingApproach Based on Market1501 Dataset for Attribute Detection](10.1109/ICSPIS54653.2021.9729331)
 
 ## About dataset
-We annotate 45 attributes for [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
+We have annotate 45 attributes for [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
 The original dataset contains 751 identities for training and 750 identities for testing. 
 The attributes are annotated in the image-based level on gt_bbox folder of Market-1501 dataset, 
 thus the file contains a CA_Market_with_id.npy

@@ -10,8 +10,7 @@ thus the file contains a CA_Market_with_id.npy
  file with size of 25259 x 46 which includes 45 binary attributes of train and test images of sorted gt_bbox folder from Market-1501 dataset and their id.
 The size of train_idx is 12567 and the size of test_idx is 12692. 
 
-
-The 48 attributes are: 
+The 45 attributes are: 
 
 | attribute | part | column index |
 | :----: | :----: | :----: |
@@ -62,7 +61,12 @@ The 48 attributes are:
  old       |    age          |    44|
  id        |    id           |    45| 
  
- ## How to use
+ 
+## Prediction Sample
+
+![](output_example.png)
+
+## How to use
  first download [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
 
 ```

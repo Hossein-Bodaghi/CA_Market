@@ -66,17 +66,20 @@ The 48 attributes are:
  first download [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
 
 ```
+from delivery import data_delivery
 
-  from delivery import data_delivery
+main_path = './datasets/Market1501/Market-1501-v15.09.15/gt_bbox/'
+path_attr = './attributes/CA_Market_with_id.npy'
 
-  main_path = './datasets/Market1501/Market-1501-v15.09.15/gt_bbox/'
-  path_attr = './attributes/CA_Market_with_id.npy'
-
-  attr = data_delivery(main_path,
-                path_attr=path_attr,
-                need_parts=True,
-                need_attr= False)
+attr = data_delivery(main_path = main_path,
+              path_attr = path_attr,
+              need_id = True,
+              need_parts = True,
+              need_attr = False)
 ``` 
+The output of data_delivery would be a python dictionary. 
+If you set need_id True, it will include ids. If set need_parts True, it will include 11 key and value which are attributes for each part of dataset.
+If set need_attr = True, it will include a key 'attributes', a vector with size of (25259, 45) which is all attributes together.  
 ## Citation
 
 If you use this dataset in your research, please kindly cite our work as,

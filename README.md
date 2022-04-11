@@ -64,17 +64,6 @@ The 48 attributes are:
  
  ## How to use
  first download [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
-  
-attr_names = ['gender','cap','hairless','short hair','long hair',
-           'knot', 'h_colorful', 'h_black','Tshirt_shs', 'shirt_ls','coat',
-           'top','simple/patterned','b_w','b_r',
-           'b_y','b_green','b_b',
-           'b_gray','b_p','b_black','backpack', 'shoulder bag',
-           'hand bag','no bag','pants',
-           'short','skirt','l_w','l_r','l_br','l_y','l_green','l_b',
-           'l_gray','l_p','l_black','shoes','sandal',
-           'hidden','no color','f_w', 'f_colorful','f_black', 'young', 
-           'teenager', 'adult', 'old']
 
 '''
 
@@ -87,7 +76,7 @@ attr_names = ['gender','cap','hairless','short hair','long hair',
                 path_attr=path_attr,
                 need_parts=True,
                 need_attr= False)
-'''  
+'''python  
 ## Citation
 
 If you use this dataset in your research, please kindly cite our work as,

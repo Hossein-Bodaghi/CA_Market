@@ -1,6 +1,6 @@
 # CA_Market1501 
 
-Here is the official repository for CA_Market1501 attribute dataset. You can find more details at [CA-Market: A Partially Categorical AnnotatingApproach Based on Market1501 Dataset for Attribute Detection](10.1109/ICSPIS54653.2021.9729331)
+Here is the official repository for CA_Market1501 attribute dataset. You can find more details on [CA-Market: A Partially Categorical AnnotatingApproach Based on Market1501 Dataset for Attribute Detection](10.1109/ICSPIS54653.2021.9729331)
 
 ## About dataset
 We annotate 45 attributes for [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 

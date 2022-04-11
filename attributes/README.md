@@ -9,60 +9,57 @@ The attributes are annotated in the image-based level on gt_bbox folder of Marke
 thus the file contains a total_attr.npy file with size of 25259 x 48 which includes 48 binary attributes and two other files, train_idx.pth and test_idx.pth that are indexes of train and test images of sorted gt_bbox folder.
 The size of train_idx is 12567 and the size of test_idx is 12692. 
 
+
 The 48 attributes are: 
 
-|attribute|   |part|       |column index|
-
- gender        gender           0
- cap           head             1
- hairless      head             2
- short hair    head             3
- long hair     head             4
- knot hair     head             5
- colorful      head color       6
- black         head color       7
- short sleeve  body             8
- long sleeve   body             9
- coat          body             10
- top           body             11
- patterned     body type        12
- white         body color       13
- red           body color       14
- yellow        body color       15
- green         body color       16
- blue          body color       17
- gray          body color       18
- purple        body color       19
- black         body color       20
- backpack      bags             21 
- shoulder bag  bags             22
- hand bag      bags             23
- no bag        bags             24
- pants         leg              25
- shorts        leg              26
- skirt         leg              27
- white         leg color        28
- red           leg color        29
- brown         leg color        30
- yellow        leg color        31
- green         leg color        32
- blue          leg color        33
- gray          leg color        34
- purple        leg color        35
- black         leg color        36
- shoes         foot             37
- sandal        foot             38
- hidden        foot             39
- no color      foot color       40
- white         foot color       41
- colorful      foot color       42
- black         foot color       43
- young         age              44
- teenager      age              45
- adult         age              46
- old           age              47
- 
- 
+| attribute | part | column index |
+| :----: | :----: | :----: |
+ gender | gender |  0
+ cap | head | 1 |
+ hairless   |   head      |       2|
+ short hair |   head       |      3|
+ long hair  |   head    |         4|
+ knot hair   |  head          |   5|
+ head (colorful1, black0)  |    head color    |   6|
+ Tshirt/shirt | body | 7|
+ coat       |   body     |        8|
+ top         |  body             9|
+ patterned  |   body type   |     10|
+ white      |    body color   |    11|
+ red        |   body color   |    12|
+ yellow     |   body color   |    13|
+ green      |   body color   |    14|
+ blue       |   body color   |    15|
+ gray       |   body color   |    16|
+ purple     |   body color   |    17|
+ black      |   body color   |   18|
+ backpack   |   bags         |    19 |
+ bag        |   bags         |    20|
+ no bag    |    bags         |    21|
+ pants     |    leg          |    22|
+ shorts    |    leg          |    23|
+ skirt     |    leg          |    24|
+ white     |    leg color    |    25|
+ red       |     leg color    |    26|
+ brown     |    leg color    |    27|
+ yellow    |    leg color    |    28|
+ green     |    leg color    |    29|
+ blue      |    leg color    |    30|
+ gray      |     leg color    |    31|
+ purple    |    leg color    |   32|
+ black     |    leg color    |    33|
+ shoes     |    foot         |    34|
+ sandal    |    foot         |    35|
+ hidden    |    foot         |    36|
+ no color  |    foot color   |    37|
+ white     |    foot color   |    38|
+ colorful  |    foot color   |    39|
+ black     |    foot color   |    40|
+ young     |    age          |    41|
+ teenager  |    age          |    42|
+ adult     |    age          |    43|
+ old       |    age          |    44|
+ id        |    id           |    45| 
   
 attr_names = ['gender','cap','hairless','short hair','long hair',
            'knot', 'h_colorful', 'h_black','Tshirt_shs', 'shirt_ls','coat',

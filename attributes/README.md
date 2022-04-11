@@ -79,15 +79,18 @@ attr_names = ['gender','cap','hairless','short hair','long hair',
 If you use this dataset in your research, please kindly cite our work as,
 ```
 @article{
+CA-Market: A Partially Categorical AnnotatingApproach Based on Market1501 Dataset for Attribute Detection
 }
 ```
-Market-1501 Dataset:
+CA_Market1501 Dataset:
 ```
-@inproceedings{zheng2015scalable,
-  title={Scalable person re-identification: A benchmark},
-  author={Zheng, Liang and Shen, Liyue and Tian, Lu and Wang, Shengjin and Wang, Jingdong and Tian, Qi},
-  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
-  year={2015}
+@inproceedings{bodaghi2021market,
+  title={CA-Market: A Partially Categorical AnnotatingApproach Based on Market1501 Dataset for Attribute Detection},
+  author={Bodaghi, Hossein and Samiee, Shayan and Masoulehe, Mehdi Tale and Kalhor, Ahmad},
+  booktitle={2021 7th International Conference on Signal Processing and Intelligent Systems (ICSPIS)},
+  pages={01--08},
+  year={2021},
+  organization={IEEE}
 }
 ```
 

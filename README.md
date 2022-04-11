@@ -66,15 +66,16 @@ The 48 attributes are:
  first download [Market-1501](http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html). 
  
  .. code-block:: python
-    from delivery import data_delivery
+ 
+   from delivery import data_delivery
 
-   main_path = './datasets/Market1501/Market-1501-v15.09.15/gt_bbox/'
-   path_attr = './attributes/CA_Market_with_id.npy'
+  main_path = './datasets/Market1501/Market-1501-v15.09.15/gt_bbox/'
+  path_attr = './attributes/CA_Market_with_id.npy'
 
-   attr = data_delivery(main_path,
-                 path_attr=path_attr,
-                 need_parts=True,
-                 need_attr= False)
+  attr = data_delivery(main_path,
+                path_attr=path_attr,
+                need_parts=True,
+                need_attr= False)
   
 attr_names = ['gender','cap','hairless','short hair','long hair',
            'knot', 'h_colorful', 'h_black','Tshirt_shs', 'shirt_ls','coat',
